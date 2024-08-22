@@ -1,4 +1,4 @@
-<script setup>
+<!-- <script setup>
 import router from '@/router';
 import { reactive } from 'vue';
 import { useToast } from 'vue-toastification';
@@ -215,4 +215,4 @@ const handleSubmit = async () => {
       </div>
     </div>
   </section>
-</template>
+</template> -->

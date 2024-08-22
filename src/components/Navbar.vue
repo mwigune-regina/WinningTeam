@@ -17,9 +17,9 @@ const isActiveLink = (routePath) => {
         >
           <!-- Logo -->
           <RouterLink class="flex flex-shrink-0 items-center mr-4" to="/">
-            <img class="h-10 w-auto" :src="logo" alt="Vue Jobs" />
+            <img class="h-10 w-auto" src="/f1.png" alt="Furaha" />
             <span class="hidden md:block text-white text-2xl font-bold ml-2"
-              >Vue Jobs</span
+              ><i style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">FURAHA MICROINVESTMENT</i></span
             >
           </RouterLink>
           <div class="md:ml-auto">
@@ -48,7 +48,7 @@ const isActiveLink = (routePath) => {
                   'py-2',
                   'rounded-md',
                 ]"
-                >Jobs</RouterLink
+                >Your profile</RouterLink
               >
               <RouterLink
                 to="/jobs/add"
@@ -61,7 +61,73 @@ const isActiveLink = (routePath) => {
                   'py-2',
                   'rounded-md',
                 ]"
-                >Add Job</RouterLink
+                >Services</RouterLink
+              >
+              <RouterLink
+                to="/invest"
+                :class="[
+                  isActiveLink('/invest')
+                    ? 'bg-green-900'
+                    : 'hover:bg-gray-900 hover:text-white',
+                  'text-white',
+                  'px-3',
+                  'py-2',
+                  'rounded-md',
+                ]"
+                >Invest with us</RouterLink
+              >
+
+              <RouterLink
+                to="/education"
+                :class="[
+                  isActiveLink('/education')
+                    ? 'bg-green-900'
+                    : 'hover:bg-gray-900 hover:text-white',
+                  'text-white',
+                  'px-3',
+                  'py-2',
+                  'rounded-md',
+                ]"
+                >Education sources</RouterLink
+              >
+              <RouterLink
+                to="/jobs"
+                :class="[
+                  isActiveLink('/jobs')
+                    ? 'bg-green-900'
+                    : 'hover:bg-gray-900 hover:text-white',
+                  'text-white',
+                  'px-3',
+                  'py-2',
+                  'rounded-md',
+                ]"
+                >Contact us</RouterLink
+              >
+              <RouterLink
+                to="/signup"
+                :class="[
+                  isActiveLink('/signup')
+                    ? 'bg-green-900'
+                    : 'hover:bg-gray-900 hover:text-white',
+                  'text-white',
+                  'px-3',
+                  'py-2',
+                  'rounded-md',
+                ]"
+                >Sign up</RouterLink
+              >
+              <RouterLink
+                to="/login"
+                :class="[
+                  isActiveLink('/login')
+                    ? 'bg-green-900'
+                    : 'hover:bg-gray-900 hover:text-white',
+                  'text-white',
+                  'px-3',
+                  'py-2',
+                  'rounded-md',
+                ]"
+                >Login</RouterLink
               >
             </div>
           </div>

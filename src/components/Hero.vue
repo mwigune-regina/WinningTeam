@@ -4,28 +4,34 @@ import { defineProps } from 'vue';
 defineProps({
   title: {
     type: String,
-    default: 'Become a Vue Dev',
+    default: 'Welcome to Furaha Microinvestment',
   },
   subtitle: {
     type: String,
-    default: 'Find the Vue job that fits your skills and needs',
+    default: 'Karibu katika uwekezaji wa faida',
   },
 });
 </script>
 
 <template>
-  <section class="bg-green-700 py-20 mb-4">
+  <section>
+    <div
+   class="bg-green-700 py-20 mb-4" style="background-image: url('f8.png');
+    background-size: cover; background-repeat: no-repeat;"
+  >
     <div
       class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col items-center"
     >
       <div class="text-center">
         <h1 class="text-4xl font-extrabold text-white sm:text-5xl md:text-6xl">
+        
           {{ title }}
         </h1>
         <p class="my-4 text-xl text-white">
           {{ subtitle }}
         </p>
       </div>
+    </div>
     </div>
   </section>
 </template>

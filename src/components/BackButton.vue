@@ -1,4 +1,4 @@
-<script setup>
+<!-- <script setup>
 import { RouterLink } from 'vue-router';
 </script>
 
@@ -13,4 +13,4 @@ import { RouterLink } from 'vue-router';
       </RouterLink>
     </div>
   </section>
-</template>
+</template> -->

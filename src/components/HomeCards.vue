@@ -7,29 +7,19 @@ import Card from '@/components/Card.vue';
   <section class="py-4">
     <div class="container-xl lg:container m-auto">
       <div class="grid grid-cols-1 md:grid-cols-2 gap-4 p-4 rounded-lg">
-        <Card>
-          <h2 class="text-2xl font-bold">For Developers</h2>
-          <p class="mt-2 mb-4">
-            Browse our Vue jobs and start your career today
+        <Card bg="bg-white">
+          <h2 class="text-2xl font-bold">
+            You are welcome to our Investment application.</h2>
+          <p class="mt-2 mb-4"style="padding: 40px;">
+            This application allows you to save,budget and invest for future benefits.
           </p>
-          <RouterLink
-            to="/jobs"
-            class="inline-block bg-black text-white rounded-lg px-4 py-2 hover:bg-gray-700"
-          >
-            Browse Jobs
-          </RouterLink>
         </Card>
-        <Card bg="bg-green-100">
-          <h2 class="text-2xl font-bold">For Employers</h2>
+        <Card bg="bg-yellow-100">
+          <h2 class="text-2xl font-bold"></h2>
           <p class="mt-2 mb-4">
-            List your job to find the perfect developer for the role
+        <img src="/f12.png"width="600px">
           </p>
-          <RouterLink
-            to="/jobs/add"
-            class="inline-block bg-green-500 text-white rounded-lg px-4 py-2 hover:bg-green-600"
-          >
-            Add Job
-          </RouterLink>
+          
         </Card>
       </div>
     </div>

@@ -1,7 +1,7 @@
 <script setup>
-import JobListings from '@/components/JobListings.vue';
+import YourProfiles from '@/components/YourProfiles.vue';
 </script>
 
 <template>
-  <JobListings />
+  <YourProfiles />
 </template>
