@@ -2,10 +2,10 @@ const mysql = require("mysql2");
 
 const db = mysql.createConnection({
   host: "localhost",
-  port: "3322",
+  port: "3306",
   user: "root",
-  password: "root",
-  database: "todo_db",
+  password: "",
+  database: "investmentplatform",
 });
 
 module.exports = db;

@@ -14,7 +14,6 @@
 
 const express = require("express");
 const db = require("./config/db");
-const todos = require("./routes/todos");
 
 const app = express();
 const port = 3000;
@@ -38,8 +37,6 @@ app.use((req, res, next) => {
 app.get("/", (req, res) => {
   res.send("Hello World!!!");
 });
-
-app.use("/todos", todos);
 
 // Error handling middleware
 app.use((err, req, res, next) => {
